@@ -1,0 +1,19 @@
+{
+  "name": "johnduarte-surf",
+  "version": "0.1.0",
+  "author": "johnduarte",
+  "summary": "Installs the surf browser",
+  "license": "Apache-2.0",
+  "source": "https://github.com/johnduarte/puppet-surf",
+  "project_page": "https://github.com/johnduarte/puppet-surf",
+  "issues_url": "https://github.com/johnduarte/puppet-surf/issues",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+    }
+  ],
+  "dependencies": [
+    {"name":"puppetlabs-git","version_requirement":">= 0.0.1"}
+  ]
+}
+
