@@ -65,7 +65,6 @@ class surf (
   $dev_packages = $surf::params::dev_packages,
 ) inherits surf::params {
 
-  class { 'git': package_manage => $git_manage, }
   contain 'git'
   ensure_packages($dev_packages)
 
