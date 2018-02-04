@@ -73,7 +73,7 @@ class surf (
     ensure   => 'present',
     path     => "${source_root}/surf",
     provider => 'git',
-    source   => 'git://suckless.org/surf',
+    source   => 'https://git.suckless.org/surf',
     revision => $version,
     require  =>  Class['git'],
   }
