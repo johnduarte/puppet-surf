@@ -58,7 +58,7 @@
 # Copyright 2015 John Duarte, unless otherwise noted.
 #
 class surf (
-  $version = '0.6',
+  $version = '2.0',
   $prefix = '/usr/local',
   $source_root = '/opt/puppet_staging/sources',
   $git_manage = true,
